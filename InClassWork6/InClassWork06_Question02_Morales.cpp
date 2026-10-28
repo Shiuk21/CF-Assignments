@@ -23,8 +23,7 @@ int main()
     int best = i;
     for (int j = i + 1; j < 5; j++)
     {
-      if (*rank[j] > *rank[best] ||
-          (*rank[j] == *rank[best] && rank[j] < rank[best]))
+      if (*rank[j] > *rank[best] || (*rank[j] == *rank[best] && rank[j] < rank[best]))
       {
         best = j;
       }
@@ -36,8 +35,7 @@ int main()
 
   for (int k = 0; k < 5; k++)
   {
-    cout << k + 1 << ". " << name[rank[k] - tempC] << " "
-         << *rank[k] << " C" << endl;
+    cout << k + 1 << ". " << name[rank[k] - tempC] << " " << *rank[k] << " C" << endl;
   }
 
   cout << "data order:";
