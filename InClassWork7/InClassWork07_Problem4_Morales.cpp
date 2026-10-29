@@ -1,3 +1,4 @@
+//Michael Morales, 10/29/2026, This code creates a function that finds the product of a double x raised to an int n power. It also reads how many calls are needed to do so and outputs them. 
 #include <iostream>
 #include <cmath>
 using namespace std;
