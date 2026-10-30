@@ -1,3 +1,4 @@
+//Michael Morales, 10/29/2026, Checks for the palindromes in a given range, displays them and counts them and displays the number of them. 
 #include <iostream>
 using namespace std;
 
